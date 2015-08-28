@@ -1,4 +1,4 @@
-/*
+    /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
@@ -55,6 +55,9 @@ public class Threads implements Runnable {
 
     public void resetSUM() {
         sum = 0;
+    }
+    public long getSum(){
+        return sum;
     }
 
 }
